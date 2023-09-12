@@ -63,16 +63,6 @@ const AddContactForm = ({ setShowModal, setContacts }: IModal) => {
       return;
     }
 
-    // if (phone.length < 2) {
-    //   setWrongPhone(true);
-    //   return;
-    // }
-
-    // if (email.length < 5 || !validator.isEmail(email)) {
-    //   setWrongEmail(true);
-    //   return;
-    // }
-
     const contactObj = {
       name,
       phone,
